@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Slab', serif;
+}
+#navbarSupportedContent{
+    width: 100%;
+    
+}
+.navbar-nav{
+    font-size: 18px;
+}
+.navbar-nav li{
+    font-weight: bolder;
+    margin-right: 3px;
+    margin-left: 3px;
+    position: relative;
+    right: 20em;
+}
+.login-nav{
+    position: relative;
+    left: 0em;
+}
+.header{
+    height: 20em;
+    background-image: url('/resources/images/Background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    
+}
+.header h2{
+    position: relative;
+    top: 3em;
+}
+.main-page{
+    border: 1px solid black;
+    width: 80%;
+    height: 30em;
+}
+.carousel{
+    position: relative;
+    left: 10em;
+    top: 3em;
+    width:50%;
+}
+.carousel-item{
+    height: 400px;
+    /* width: 400px; */
+}
+.carousel-item img{
+    height: 400px;
+
+}
+.card{
+    border: 0px;
+    padding: 10px;
+    position: relative;
+    top: 3em;
+}
+.card-body{
+    margin: 15px 0px;
+}
+.features{
+    margin-top: 25em;
+}
+.feature2{
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.feature-row{
+    margin: 0 auto;
+    
+}
+.feature-row img{
+    border-radius: 40%;
+}
+.para{
+    text-align: center;
+    width: 50%;
+    position: relative;
+    left: 2em;
+}
+.main{
+    position: relative;
+}
+.main-page{
+    background-color: white;
+    position: absolute;
+    top: 10em;
+    left: 5em;
+}
+
+
+@media (max-width: 600px)
+ {
+    .navbar-nav li{
+        position: static;
+    }
+    .nav-image{
+        position: relative;
+        left: 5em;
+        top: 2.7em;
+    }
+    /* nav{
+        width: 30em;
+        box-shadow: 0px 5px rgb(175, 169, 169);
+    } */
+    .header{
+        position: relative;
+        top: 2em;
+        margin: auto;
+        width: 100%;
+        height: 10em;
+        padding: 10px;
+        border: 1px solid black;
+    }
+    .header h2{
+        position: relative;
+        top: 1em;
+    }
+    .card{
+        margin: 0 auto;
+        position: static;
+    } 
+    .main-page{
+        border: 1px solid black;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        height: auto;
+    }
+    .main{
+        margin: 0 auto;
+    }
+    .carousel{
+        margin: 20px auto;
+        position: static;
+        bottom: 5em;
+        height: 300px;
+        width: 45%;
+        /* position: relative;
+        left: 4em; */
+    }
+    .carousel-item img{
+        height: 300px;
+    
+    }
+    .feature-row{
+        margin: 0 auto;
+        position: relative;
+        left: 4.5em;
+    }
+    .features{
+        margin: 0 auto;
+        margin-top: 45em;
+    }
+    .main-page{
+        position: absolute;
+        
+    }
+    
+    
+    
+}
+
+  /* .navbar-nav li{
+        position: static;
+    }
+    .nav-image{
+        position: relative;
+        left: 5em;
+        top: 2.7em;
+    }
+    nav{
+        box-shadow: 0px 5px rgb(175, 169, 169);
+        width: 50em;
+    }
+    .header{
+        position: relative;
+        top: 2em;
+        left: 2em;
+        margin: auto;
+        width: 100%;
+        height: 10em;
+        padding: 10px;
+    }
+    .header h2{
+        position: relative;
+        top: 1em;
+    }
+    .card{
+        position: relative;
+        right: 2em;
+    } */
+
+
